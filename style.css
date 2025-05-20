@@ -1,0 +1,28 @@
+body { 
+    font-family: sans-serif; 
+    margin: 1rem; 
+    background-color: #222831;
+
+
+}
+#main{
+    height: 132px;
+    width: 1880px;
+    background-color: antiquewhite;
+}
+#name{
+    height: 132px;
+    width: 301px;
+
+}
+H1{
+    font-size: 24px;
+    text-align: center;
+    margin: 1;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-right: 48px;
+    padding-left: 48px;
+    color : white;
+
+}
