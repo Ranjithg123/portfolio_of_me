@@ -201,6 +201,23 @@ body{
 
  /* .hero-text, .hero-image {
     border: 1px dashed lime; /* for debugging */
+/* style.css */
+.contact-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 500px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
+.contact-section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
 
-    /* https://www.figma.com/design/JcYKUhrINCbCIQz5D4tPmO/Portfolio-Website-Design--Community-?node-id=0-1&p=f&t=UdkpyRoeGbG9wBEy-0*/
+.contact-section p {
+  margin: 8px 0;
+  color: #555;
+}
