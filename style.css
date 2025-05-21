@@ -199,25 +199,29 @@ body{
     max-width: 663.8px;
   }
 
- /* .hero-text, .hero-image {
-    border: 1px dashed lime; /* for debugging */
-/* style.css */
+.contact{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
 .contact-section {
-  background-color: #f2f2f2;
+
   padding: 20px;
   border-radius: 10px;
   margin-left: 500px;
   width: 300px;
   font-family: Arial, sans-serif;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.contact-section h2 {
-  color: #333;
-  margin-bottom: 10px;
 }
 
 .contact-section p {
   margin: 8px 0;
-  color: #555;
+  color: white;
+}
+.contact-section a {
+  color: white; /* LinkedIn blue */
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: none;
 }
