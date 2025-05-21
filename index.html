@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <title>portfolio</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
 </header>
 <hr class="line">
 <div class="body">
-    <section class="hero">
+    <section class="hero" data-aos="fade-up">
         <div class="hero-text">
           <h1>Hi, I’m <span class="highlight">Ranjith Kumar</span></h1>
           <h2>Java Developer | System Administrator | Red Hat Certified Engineer</h2>
@@ -36,11 +37,11 @@
           </div>
         </div>
       
-        <div class="hero-image">
+        <div class="hero-image" data-aos="fade-left">
           <img src="image/Untitled(1).png" alt="Illustration">
         </div>
       </section>
-      <div class="contact-section">
+      <div class="contact-section" data-aos="zoom-in">
         <h2 class="contact">Contact Me</h2>
         <p><i class="fas fa-envelope"></i> ranjithkumarg984@gmail.com</p>
         <p><i class="fas fa-phone"></i> +91 7305598408</p>
@@ -49,13 +50,20 @@
       </div>
       <div class="empty"></div>
       <hr class="line">
-      <footer>
+      <footer data-aos="fade-up">
         <div class="footer-container">
           <p class="all">&copy; 2025 Ranjith Kumar G. All rights reserved.</p>
           <p class="all1">Designed by Ranjith Kumar G</p>
         </div>
       </footer>
 </div>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true      // only animate once
+  });
+</script>
 
 </body>
 </html>
