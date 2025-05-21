@@ -249,7 +249,15 @@ body{
   align-items: center;
   padding: 20px;
   background-color: #222; 
+
   color: white;
+}
+.footer-container a {
+  color: #00adb5;
+  text-decoration: none;
+}
+.footer-container a:hover {
+  text-decoration: underline;
 }
 
 .footer-container p {
