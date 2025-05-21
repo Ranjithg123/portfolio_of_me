@@ -124,3 +124,88 @@ body{
   .secondary:hover {
     background-color: #2d3138;
   }
+.about-section {
+  background-color: #1c1e26;
+  padding: 80px 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.about-text .highlight {
+  color: #00adb5;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.read-more {
+  color: #00adb5;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+}
+.empty{
+  height: 100px;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #222; 
+
+  color: white;
+}
+.footer-container a {
+  color: #00adb5;
+  text-decoration: none;
+}
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-container p {
+  margin: 0;
+}
