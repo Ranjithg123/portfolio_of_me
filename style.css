@@ -199,37 +199,44 @@ body{
     max-width: 663.8px;
   }
 
-.contact{
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 5rem;
-  height: 100px;
-  width: 500px;
-}
-.contact-section {
+  .contact-section {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #393e46; /* optional background */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00adb5;
+    text-align: center;
+  }
+  
+  .contact-section p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .contact-section i {
+    margin-right: 10px;
+    color: #00adb5;
+  }
+  
+  .contact-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }  
 
-  padding: 20px;
-  border-radius: 10px;
-  margin-left: 500px;
-  width: 300px;
-  font-family: Arial, sans-serif;
-}
-.contact_p{
-  margin-top: 110px;
-}
-
-.contact-section p {
-
-  color: white;
-}
-.contact-section a {
-  color: white; /* LinkedIn blue */
-  text-decoration: none;
-}
-
-.contact-section a:hover {
-  text-decoration: none;
-}
 
 .empty{
   height: 100px;
