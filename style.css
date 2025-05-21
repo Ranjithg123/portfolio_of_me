@@ -66,7 +66,6 @@ body{
 .body{
     height: 700px;
     width: 100%;
-    background-color: red;
 
 }
 
@@ -95,3 +94,110 @@ body{
     color: #ddd;
     text-align: center;
 }
+.buttons {
+    margin-top: 20px;
+    padding-left: 342px;
+    margin-top: 35px;
+}
+
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  .primary {
+    background-color: #00adb5;
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .primary:hover {
+    background-color: #019ca3;
+  }
+  
+  .secondary {
+    background-color: #393e46;
+    color: white;
+  }
+  
+  .secondary:hover {
+    background-color: #2d3138;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222831;
+    padding: 80px 100px;
+    color: white;
+    flex-wrap: wrap; /* for responsiveness */
+  }
+  
+  .hero-text {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 40px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #00ADB5;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .primary {
+    background-color: #00ADB5;
+    color: white;
+  }
+  
+  .secondary {
+    background-color: #393E46;
+    color: white;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 663.8px;
+  }
+
+ /* .hero-text, .hero-image {
+    border: 1px dashed lime; /* for debugging */
