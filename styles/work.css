@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
 body{
-  background-image: url('image/mywork.png');
+  background-image: url('/image/mywork.png');
   background-size: cover;         /* or "contain" or "auto" depending on the effect you want */
   background-repeat: repeat;      /* use "no-repeat" for single image */
   background-attachment: fixed;   /* creates a parallax effect */
