@@ -170,3 +170,14 @@ html {
 .about-content strong {
   color: #00bfa6;            /* highlight keywords */
 }
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #333;
+}
+.projects-grid a.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
