@@ -1,70 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <title>portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranjith Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-<header>
-    <div id="main">
-        <div id="name">
-            <H1 class="h1"><b>welcome</b></H1>
-        </div>
-        <div class="pill-nav">
-            <a class="active" href="index.html">Home</a>
-            <a href="work.html">work</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-          </div> 
-    </div>
-</header>
-<hr class="line">
-<div class="body">
-    <section class="hero" data-aos="fade-up">
-        <div class="hero-text">
-          <h1>Hi, I’m <span class="highlight">Ranjith Kumar</span></h1>
-          <h2>Java Developer | System Administrator | Red Hat Certified Engineer</h2>
-          <p>
-            I’m a passionate and detail-oriented tech professional skilled in Java development, Linux system administration, and enterprise-level infrastructure management. I build efficient, scalable backend systems and manage secure, stable server environments.
-          </p>
-          <div class="buttons">
-            <a href="#contact" class="btn primary">Hire me</a>
-            <a href="cv.pdf" download class="btn secondary">Download CV ⬇</a>
-          </div>
-        </div>
-      
-        <div class="hero-image" data-aos="fade-left">
-          <img src="image/Untitled(1).png" alt="Illustration">
-        </div>
-      </section>
-      <div class="contact-section" data-aos="zoom-in">
-        <h2 class="contact">Contact Me</h2>
-        <p><i class="fas fa-envelope"></i> ranjithkumarg984@gmail.com</p>
-        <p><i class="fas fa-phone"></i> +91 7305598408</p>
-        <p><i class="fab fa-github"></i> <a href="https://github.com/Ranjithg123" target="_blank">Ranjithg123</a></p>
-        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ranjith-kumar-682021243" target="_blank">linkedin</a></p>
-      </div>
-      <div class="empty"></div>
-      <hr class="line">
-      <footer data-aos="fade-up">
-        <div class="footer-container">
-          <p class="all">&copy; 2025 Ranjith Kumar G. All rights reserved.</p>
-          <p class="all1">Developed by Ranjith Kumar G | UI design by <a href="https://www.figma.com/@SaulDesign08" target="_blank">@SaulDesign08</a></p>
-        </div>
-      </footer>
-</div>
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1000, // animation duration in ms
-    once: true      // only animate once
-  });
-</script>
 
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="logo">Ranjith<span> Kumar</span></div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-content reveal">
+      <h1>Hi, I'm <span>Ranjith Kumar</span></h1>
+      <p>Linux Server Administrator & Aspiring DevOps Engineer</p>
+      <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+ <!-- ===== ABOUT ===== -->
+<section id="about" class="section reveal">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <p>
+      I'm <strong>Ranjith Kumar</strong>, a <strong>Linux Server Administrator</strong> passionate about building 
+      reliable infrastructure and exploring <strong>DevOps practices</strong>.  
+      I enjoy automating deployments, optimizing servers, and experimenting with tools like 
+      <strong>Docker, Kubernetes, AWS, and CI/CD pipelines</strong>.  
+      My goal is to grow as a DevOps Engineer while sharing my knowledge and delivering efficient solutions.
+    </p>
+  </div>
+</section>
+
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section reveal">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><i class="fa-brands fa-linux"></i> Linux (Ubuntu, CentOS)</div>
+      <div class="skill"><i class="fa-solid fa-server"></i> Server Admin</div>
+      <div class="skill"><i class="fa-solid fa-envelope"></i> Zimbra / Mail Servers</div>
+      <div class="skill"><i class="fa-brands fa-aws"></i> AWS (EC2, S3, IAM)</div>
+      <div class="skill"><i class="fa-brands fa-docker"></i> Docker (Learning)</div>
+      <div class="skill"><i class="fa-solid fa-cubes"></i> Kubernetes (Basics)</div>
+      <div class="skill"><i class="fa-brands fa-jenkins"></i> Jenkins CI/CD</div>
+      <div class="skill"><i class="fa-solid fa-terminal"></i> Bash / Shell Scripting</div>
+      <div class="skill"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="SSL script">
+        <div class="card-body">
+          <h3>Automated SSL Renewal</h3>
+          <p>Bash script that renews SSL certificates and reloads web servers automatically.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Zimbra backup">
+        <div class="card-body">
+          <h3>Zimbra Backup Automation</h3>
+          <p>Cron-based solution for automated Zimbra mailbox backups with logs and alerts.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="DevOps lab">
+        <div class="card-body">
+          <h3>DevOps Lab</h3>
+          <p>Personal environment running Docker, Jenkins, and Git for CI/CD experiments.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="IoT Helmet">
+        <div class="card-body">
+          <h3>IoT Safety Helmet</h3>
+          <p>ESP32-based smart helmet with sensors for worker safety (academic project).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section reveal">
+    <h2>Contact</h2>
+    <p>Interested in collaborating or offering a DevOps opportunity? Reach out!</p>
+    <div class="contact-links">
+      <a href="mailto:ranjith@example.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/ranjith" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/ranjith" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Ranjith Kumar</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
