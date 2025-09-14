@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerShell Backup Script | Ranjith Kumar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.8;
+      background: linear-gradient(135deg, #1e1e1e, #0a0a0a);
+      color: #f5f5f5;
+    }
+    header {
+      background: rgba(15, 15, 15, 0.95);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    header .logo span { color: #00bfa6; }
+    header nav a {
+      margin-left: 1.5rem;
+      font-weight: 500;
+      color: #fff;
+      transition: color 0.3s;
+    }
+    header nav a:hover { color: #00bfa6; }
+
+    .section {
+      max-width: 950px;
+      margin: 60px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 25px;
+      color: #fff;
+    }
+    .section p {
+      font-size: 1.1rem;
+      color: #ccc;
+      text-align: justify;
+    }
+    .section ul {
+      text-align: left;
+      margin-top: 30px;
+      padding-left: 20px;
+    }
+    .section ul li {
+      font-size: 1.05rem;
+      margin-bottom: 12px;
+      color: #eee;
+    }
+    img.project-img {
+      max-width: 650px;
+      width: 100%;
+      border-radius: 16px;
+      margin: 30px 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    .repo-btn {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #000;
+      background: #00bfa6;
+      border-radius: 28px;
+      text-decoration: none;
+      transition: transform 0.3s;
+    }
+    .repo-btn:hover { transform: scale(1.05); }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #111;
+      color: #888;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Ranjith<span> Kumar</span></div>
+  <nav>
+    <a href="index.html#home">Home</a>
+    <a href="index.html#projects">Back to Projects</a>
+  </nav>
+</header>
+
+<section class="section">
+  <h2>PowerShell Script for Backup</h2>
+
+  <img src="images/ssl-script.png" alt="PowerShell script" class="project-img">
+
+  <p>
+    This <strong>PowerShell Backup Script</strong> is designed to simplify the process of archiving and storing critical data on Windows servers.
+    It automatically zips specified files and folders, then stores them on a mounted storage box or network drive.
+    The script helps system administrators reduce repetitive tasks and ensures safe data retention.
+  </p>
+
+  <ul>
+    <li>Written entirely in <strong>PowerShell</strong> for easy customization.</li>
+    <li>Compresses data into timestamped ZIP archives.</li>
+    <li>Supports mounted storage boxes or network shares for offsite storage.</li>
+    <li>Can be scheduled with Windows Task Scheduler for automated backups.</li>
+    <li>Logs all backup actions for easy troubleshooting.</li>
+  </ul>
+
+  <a href="https://github.com/Ranjithg123/backupscript_for_windowns" target="_blank" class="repo-btn">
+    <i class="fa-brands fa-github"></i> View on GitHub
+  </a>
+</section>
+
+<footer>
+  <p>© 2025 Ranjith Kumar</p>
+</footer>
+
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+
+</body>
+</html>
