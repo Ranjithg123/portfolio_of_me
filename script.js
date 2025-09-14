@@ -7,3 +7,8 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+function toggleExp(card) {
+  const details = card.querySelector('.exp-details');
+  details.classList.toggle('active');
+}
