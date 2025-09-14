@@ -51,6 +51,10 @@ a {
   background: linear-gradient(135deg,#1f1f1f,#000);
   text-align: center;
 }
+#experience {
+  margin-top: 40px;
+}
+
 .hero h1 {
   font-size: 3rem;
 }
@@ -108,6 +112,61 @@ a {
 }
 .skill i { font-size: 2rem; margin-bottom: 8px; display: block; }
 .skill:hover { transform: translateY(-5px); }
+
+/* ===== Experience ===== */
+.exp-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.exp-item {
+  background: #1e1e1e;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+.exp-item:hover {
+  transform: translateY(-5px);
+}
+
+.exp-item h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #00bfa6;
+  margin-bottom: 6px;
+}
+
+.exp-duration {
+  font-size: 0.95rem;
+  color: #bbb;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.exp-item p {
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.6;
+}
+.exp-company {
+  font-weight: 600;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.certifications {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+.certifications li {
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
 
 /* ===== Projects ===== */
 .projects-grid {
@@ -180,4 +239,44 @@ html {
   display: block;
   text-decoration: none;
   color: inherit;
+}
+
+/* Experience */
+.exp-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.exp-item {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+/* Certifications */
+/* ===== Certifications ===== */
+#certifications {
+  background: #111;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#certifications h2 {
+  margin-bottom: 30px;
+}
+
+.certifications-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 1.5rem;        /* space for bullets */
+  list-style-type: disc;       /* show classic dots */
+  text-align: left;            /* align list items left */
+}
+
+.certifications-list li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #ddd;
+  line-height: 1.6;
 }
