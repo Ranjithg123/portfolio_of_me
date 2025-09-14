@@ -12,3 +12,9 @@ function toggleExp(card) {
   const details = card.querySelector('.exp-details');
   details.classList.toggle('active');
 }
+const navToggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
